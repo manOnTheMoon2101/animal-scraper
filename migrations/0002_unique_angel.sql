@@ -1,0 +1,1 @@
+ALTER TABLE "animals" ALTER COLUMN "id" SET DATA TYPE text;

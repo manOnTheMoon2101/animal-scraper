@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1746898209904,
+      "tag": "0000_superb_mongu",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1746898728917,
+      "tag": "0001_futuristic_lorna_dane",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1746898910813,
+      "tag": "0002_unique_angel",
+      "breakpoints": true
+    }
+  ]
+}
