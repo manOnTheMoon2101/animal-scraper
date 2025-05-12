@@ -10,9 +10,9 @@ export default function Home() {
         <Header />
       </header>
 
-      {/* <main>
+      <main>
         <Body data={x} />
-      </main> */}
+      </main>
     </div>
   );
 }
