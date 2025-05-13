@@ -16,7 +16,7 @@ function Header() {
         <ModeToggle />
       </div>
       <div className="flex-row flex justify-between">
-        <div className="items-center justify-center flex-col w-1/2">
+        <div className="items-center justify-center flex-col w-1/2 border border-amber-100">
           <div className="flex my-28 items-end">
             <h1 className={`${mclaren.className} text-8xl`}>Give a </h1>
             <span className="italic text-2xl underline mx-2">Shelter</span>
@@ -31,7 +31,7 @@ function Header() {
           </div>
         </div>
 
-        <div className="items-center justify-center w-1/2 flex-col flex">
+        <div className="items-center justify-center w-1/2 flex-col flex border bg-amber-100">
           <div className="mx-2">
             <Image
               alt="Photo by Lukas Kloeppel: https://www.pexels.com/photo/black-and-brown-rottweiler-puppy-1307630/"
