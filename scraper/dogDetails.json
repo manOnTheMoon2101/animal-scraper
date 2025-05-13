@@ -166,26 +166,34 @@
   },
   {
     "name": "Lemon",
-    "details": "",
-    "type": "I am a 7 month old",
+    "details": "I am a 7 month old",
+    "type": "DSH girlie",
+    "age": 7,
+    "ageDate": "month",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/01/LEMON.jpg"
   },
   {
     "name": "Uda",
     "details": "I am an one year old",
-    "type": "",
+    "type": "DSH Female",
+    "age": 1,
+    "ageDate": "year",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/02/Uda-1-yr-old-DSH-Female.jpg"
   },
   {
     "name": "Ayden",
     "details": "I am a 12 week old",
-    "type": "",
+    "type": "DSH little boy",
+    "age": 12,
+    "ageDate": "week",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/02/ayden-12-wk-old-male.jpg"
   },
   {
     "name": "Zorro",
     "details": "I am a 11 week old",
-    "type": "",
+    "type": "DSH little boy",
+    "age": 11,
+    "ageDate": "week",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/02/Zorro-11-week-old-male.jpg"
   },
   {
@@ -209,7 +217,7 @@
     "details": "I am a 12 week old",
     "age": 12,
     "ageDate": "week",
-    "type": "",
+    "type": "DSH little boy",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/02/wihan-12-wk-old-male.jpg"
   },
   {
@@ -217,13 +225,13 @@
     "details": "I am a 12 week old",
     "age": 12,
     "ageDate": "week",
-    "type": "",
+    "type": "DSH girlie",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/02/Clarissa-12-wk-old-fem.jpg"
   },
   {
     "name": "Travis",
     "details": "I am a 9 week old",
-    "type": "",
+    "type": "DSH little boy",
     "age": 9,
     "ageDate": "week",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/02/Travis-9-wk-old-male.jpg"
@@ -231,7 +239,7 @@
   {
     "name": "Casper",
     "details": "I am 3 yr old",
-    "type": "",
+    "type": "DSH grey&white Male",
     "age": 3,
     "ageDate": "year",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/02/Casper-3-yr-old-grewhite-male.jpg"
@@ -239,7 +247,7 @@
   {
     "name": "Albert",
     "details": "I am a 6 month old",
-    "type": "",
+    "type": "DSH Male",
     "age": 6,
     "ageDate": "month",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/01/ALBERT.jpg"
@@ -247,7 +255,7 @@
   {
     "name": "Lily",
     "details": "I am a 6 month old",
-    "type": "",
+    "type": "DSH girlie",
     "age": 6,
     "ageDate": "month",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/02/Lily-6-months-old.jpg"
