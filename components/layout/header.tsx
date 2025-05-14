@@ -11,29 +11,29 @@ const mclaren = McLaren({
 });
 function Header() {
   return (
-    <div className="border border-b-amber-100">
-      <div className="flex justify-end mx-4">
+    <div className="">
+      <div className="flex justify-end mx-4 my-4">
         <ModeToggle />
       </div>
       <div className="flex-row flex justify-between">
-        <div className="items-center justify-center flex-col w-1/2 border border-amber-100">
+        <div className="items-center justify-center flex-col w-1/2">
           <div className="flex my-28 items-end">
-            <h1 className={`${mclaren.className} text-2xl`}>Give a </h1>
-            <span className="italic text-8xl underline mx-2">Shelter</span>
+            <h1 className={`text-2xl`}>Give a </h1>
+            <span className={`italic text-8xl mx-2 text-secondary ${mclaren.className}`}>Shelter</span>
           </div>
           <div className="flex my-14 items-center justify-center">
-            <Dog size={48} className="text-amber-100 mx-4 animate-bounce" />
-          
+            <Dog size={48} className="text-accent mx-4 animate-bounce" />
+
             <h2 className={`${mclaren.className} text-4xl`}>FurEver©</h2>
-              <Cat size={48} className="text-amber-100 mx-4  animate-bounce" />
+            <Cat size={48} className="text-accent mx-4  animate-bounce" />
           </div>
           <div className="flex my-28 items-end">
-            <h1 className={`${mclaren.className} text-2xl`}>Gain a </h1>
-            <span className="italic text-8xl underline mx-2">Friend</span>
+            <h1 className={`text-2xl`}>Gain a </h1>
+            <span className={`italic text-8xl mx-2 text-secondary ${mclaren.className}`}>Friend</span>
           </div>
         </div>
 
-        <div className="items-center justify-center w-1/2 flex-col flex border bg-amber-100">
+        <div className="items-center justify-center w-1/2 flex-col flex bg-accent rounded">
           <div className="mx-2">
             <Image
               alt="Photo by Lukas Kloeppel: https://www.pexels.com/photo/black-and-brown-rottweiler-puppy-1307630/"

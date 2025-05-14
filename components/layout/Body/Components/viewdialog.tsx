@@ -12,15 +12,19 @@ import {
   MorphingDialogContainer,
 } from "@/components/motion-primitives/morphing-dialog";
 import { Button } from "@/components/ui/button";
-import { PlusIcon } from "lucide-react";
-
+import { ExternalLink } from "lucide-react";
+import { McLaren } from "next/font/google";
+const mclaren = McLaren({
+  weight: "400",
+  subsets: ["latin"],
+});
 export function MorphingDialogBasicOne({ data }: { data: any }) {
-    function capitalizeAllLetters(text: string): string {
-        return text
-            .split(' ')
-            .map(word => word.toUpperCase())
-            .join(' ');
-    }
+  function capitalizeAllLetters(text: string): string {
+    return text
+      .split(" ")
+      .map((word) => word.toUpperCase())
+      .join(" ");
+  }
   return (
     <MorphingDialog
       transition={{
@@ -33,7 +37,7 @@ export function MorphingDialogBasicOne({ data }: { data: any }) {
         style={{
           borderRadius: "12px",
         }}
-        className="flex max-w-[270px] flex-col overflow-hidden border border-zinc-950/10 bg-white dark:border-zinc-50/10 dark:bg-zinc-900"
+        className="flex max-w-[270px] flex-col overflow-hidden shadow-lg bg-background"
       >
         <MorphingDialogImage
           src={data.image}
@@ -42,21 +46,26 @@ export function MorphingDialogBasicOne({ data }: { data: any }) {
         />
         <div className="flex grow flex-row items-end justify-between px-3 py-2">
           <div>
-            <MorphingDialogTitle className="text-zinc-950 dark:text-zinc-50">
+            <MorphingDialogTitle className="text-foregound flex flex-row justify-start">
               {data.name}
             </MorphingDialogTitle>
-            <MorphingDialogSubtitle className="text-zinc-700 dark:text-zinc-400">
-              {data.type ? data.type
-    .split(' ')
-    .map((word: string) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(' '): ''}
+            <MorphingDialogSubtitle className={`text-secondary flex flex-row justify-start  ${mclaren.className}`}>
+              {data.type
+                ? data.type
+                    .split(" ")
+                    .map(
+                      (word: string) =>
+                        word.charAt(0).toUpperCase() + word.slice(1)
+                    )
+                    .join(" ")
+                : ""}
             </MorphingDialogSubtitle>
           </div>
           <div
-            className="relative ml-1 flex h-6 w-6 shrink-0 scale-100 select-none appearance-none items-center justify-center rounded-lg border border-zinc-950/10 text-zinc-500 transition-colors hover:bg-zinc-100 hover:text-zinc-800 focus-visible:ring-2 active:scale-[0.98] dark:border-zinc-50/10 dark:bg-zinc-900 dark:text-zinc-500 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:focus-visible:ring-zinc-500"
+            className="relative ml-1 flex h-6 w-6 shrink-0 scale-100 select-none appearance-none items-center justify-center  border border-accent text-accent rounded"
             aria-label="Open dialog"
           >
-            <PlusIcon size={12} />
+            <ExternalLink size={12} />
           </div>
         </div>
       </MorphingDialogTrigger>
@@ -65,18 +74,18 @@ export function MorphingDialogBasicOne({ data }: { data: any }) {
           style={{
             borderRadius: "24px",
           }}
-          className="pointer-events-auto relative flex h-auto w-full flex-col overflow-hidden border border-zinc-950/10 bg-white dark:border-zinc-50/10 dark:bg-zinc-900 sm:w-[500px]"
+          className="pointer-events-auto relative flex h-auto w-full flex-col overflow-hidden bg-background sm:w-[500px]"
         >
           <MorphingDialogImage
             src={data.image}
-            alt="A desk lamp designed by Edouard Wilfrid Buquet in 1925. It features a double-arm design and is made from nickel-plated brass, aluminium and varnished wood."
+            alt="Image of Animal"
             className="h-full w-full"
           />
           <div className="p-6">
-            <MorphingDialogTitle className="text-2xl text-zinc-950 dark:text-zinc-50">
+            <MorphingDialogTitle className="text-foregound flex flex-row justify-start">
               {data.name}
             </MorphingDialogTitle>
-            <MorphingDialogSubtitle className="text-zinc-700 dark:text-zinc-400">
+            <MorphingDialogSubtitle className={`text-secondary flex flex-row justify-start ${mclaren.className} `}>
               {data.details}
             </MorphingDialogSubtitle>
             <MorphingDialogDescription
@@ -87,14 +96,17 @@ export function MorphingDialogBasicOne({ data }: { data: any }) {
                 exit: { opacity: 0, scale: 0.8, y: 100 },
               }}
             >
-              {data.type}
-              <a
-            href={`https://wellingtonspca.co.za/up-for-adoption/dogs/${data.name}/`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button className="bg-accent text-white font-bold">Contact</Button>
-          </a>
+              <div className="flex flex-row justify-end my-4">
+              <Button variant={"outline"}>
+                <a
+                  href={`https://wellingtonspca.co.za/up-for-adoption/dogs/${data.name}/`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Contact{" "}
+                </a>
+              </Button>
+              </div>
             </MorphingDialogDescription>
           </div>
           <MorphingDialogClose className="text-zinc-50" />
