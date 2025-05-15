@@ -15,7 +15,7 @@ export default function Home() {
         <Body data={x} />
       </main>
 
-      <footer className="border border-amber-100">
+      <footer>
         <Footer />
       </footer>
     </div>
