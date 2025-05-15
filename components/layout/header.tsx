@@ -15,8 +15,8 @@ function Header() {
       <div className="flex justify-end mx-4 my-4">
         <ModeToggle />
       </div>
-      <div className="flex flex-col md:flex-row justify-between">
-        <div className="items-center justify-center flex-col w-full md:w-1/2 text-center md:text-left mx-2">
+      <div className="flex flex-row justify-center">
+        <div className="">
           <div className="flex my-14 md:my-28 items-center md:items-end justify-center md:justify-start">
             <h1 className={`text-2xl`}>Give a </h1>
             <span className={`italic text-6xl md:text-8xl mx-2 text-secondary ${mclaren.className}`}>Shelter</span>
@@ -33,7 +33,7 @@ function Header() {
           </div>
         </div>
 
-        <div className="items-center justify-center w-full md:w-1/2 flex-col flex bg-accent rounded mt-8 md:mt-0">
+        {/* <div className="items-center justify-center w-full md:w-1/2 flex-col flex bg-accent rounded mt-8 md:mt-0">
           <div className="mx-2 flex justify-center md:justify-start">
             <Image
               alt="Photo by Lukas Kloeppel: https://www.pexels.com/photo/black-and-brown-rottweiler-puppy-1307630/"
@@ -41,7 +41,7 @@ function Header() {
               className="rounded-full"
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
