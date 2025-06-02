@@ -9,6 +9,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Button } from "@/components/ui/button";
+import { Filter } from "lucide-react";
 
 interface DataItem {
   type: string;
@@ -34,7 +35,10 @@ function Body({ data }: { data: DataItem[] }) {
       <div className="flex flex-row justify-center gap-4 items-center">
         <Select onValueChange={(value) => setFilter(value)} value={filter}>
           <SelectTrigger className="w-[180px]">
-            <SelectValue placeholder="Filter" />
+            <div className="flex items-center gap-2">
+              <Filter className="h-4 w-4 text-accent" />
+              <SelectValue placeholder="Filter" />
+            </div>
           </SelectTrigger>
           <SelectContent>
             {uniqueTypes.map((type) => (
