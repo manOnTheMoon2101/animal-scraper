@@ -65,7 +65,7 @@ export function MorphingDialogBasicOne({ data }: { data: any }) {
             className="relative ml-1 flex h-6 w-6 shrink-0 scale-100 select-none appearance-none items-center justify-center  border border-accent text-accent rounded"
             aria-label="Open dialog"
           >
-            <ExternalLink size={12} />
+            <ExternalLink size={12} className="hover:text-primary" />
           </div>
         </div>
       </MorphingDialogTrigger>
@@ -109,7 +109,7 @@ export function MorphingDialogBasicOne({ data }: { data: any }) {
               </div>
             </MorphingDialogDescription>
           </div>
-          <MorphingDialogClose className="text-zinc-50" />
+          <MorphingDialogClose className="text-zinc-50 cursor-pointer hover:text-destructive" />
         </MorphingDialogContent>
       </MorphingDialogContainer>
     </MorphingDialog>
