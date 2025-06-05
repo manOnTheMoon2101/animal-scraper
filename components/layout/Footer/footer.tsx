@@ -9,10 +9,7 @@ import { Info } from "lucide-react";
 const Footer = () => {
   return (
     <div className="my-12 ">
-      <div className="flex flex-row justify-center">
-        <h3>@cleveclayton</h3>
-      </div>
-      <div className="flex flex-row justify-center">
+            <div className="flex flex-row justify-center my-4">
         <Popover>
           <PopoverTrigger asChild>
             <Button className="rounded cursor-pointer">
@@ -36,6 +33,12 @@ const Footer = () => {
           </PopoverContent>
         </Popover>
       </div>
+     <div className="flex flex-row justify-center items-center">
+      <div className="text-center">
+        <div>Designed by @cleveclayton</div>
+        <div>@2025</div>
+      </div>
+    </div>
     </div>
   );
 };
