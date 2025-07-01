@@ -2,7 +2,7 @@
   {
     "name": "Pepi",
     "details": "My name is Pepi\nI am an 18 Month old, 3 legged\nCat friendly Cross breed Female",
-    "type": ", 3 legged",
+    "type": "Cross breed Female",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Pepi-18mnt-3-legs-x-F.jpg",
     "age": 18,
     "ageDate": "month"
@@ -10,7 +10,7 @@
   {
     "name": "Bart",
     "details": "My name is Bart\nI am a 7 year old\nSmall x breed Male",
-    "type": "",
+    "type": "Small x breed Male",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Bart-6-yr-S-x-M.jpg",
     "age": 7,
     "ageDate": "year"
@@ -18,7 +18,7 @@
   {
     "name": "Dolly",
     "details": "My name is\nDolly\nI am an 18 month old\nMixed breed Female",
-    "type": "",
+    "type": "nMixed breed Female",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/01/DOLLY.jpg",
     "age": 18,
     "ageDate": "month"
@@ -26,7 +26,7 @@
   {
     "name": "Stan",
     "details": "My name is Stan\nI am a 5 month old\nMixed breed little boy",
-    "type": "",
+    "type": "Mixed breed little boy",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Stan-5-mnt-x-M.jpg",
     "age": 5,
     "ageDate": "month"
@@ -34,7 +34,7 @@
   {
     "name": "Muller",
     "details": "My name is Muller\nI am an 18 month old\nJack Russel x Male",
-    "type": "",
+    "type": "Jack Russel x Male",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Muller-18mnth-JRx-M.jpg",
     "age": 18,
     "ageDate": "month"
@@ -42,7 +42,7 @@
   {
     "name": "Snowy",
     "details": "My name is Snowy\nI am a 6 month old\nMedium size Cross breed Male",
-    "type": "",
+    "type": "Cross breed Male",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Snowy-6-mnth-old-M-x-M.jpg",
     "age": 6,
     "ageDate": "month"
@@ -50,7 +50,7 @@
   {
     "name": "Stella",
     "details": "My name is\nStella\nI am an 18 month old\nHusky Female",
-    "type": "",
+    "type": "Husky Female",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/02/Stella-18mnt-Husky-fem.jpg",
     "age": 18,
     "ageDate": "month"
@@ -58,7 +58,7 @@
   {
     "name": "Clover",
     "details": "My name is Clover\nI am a 9 month old\nJack Russel x Female",
-    "type": "",
+    "type": "Jack Russel x Female",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Clover-9-mnt-x-F.jpg",
     "age": 9,
     "ageDate": "month"
@@ -66,7 +66,7 @@
   {
     "name": "Coco",
     "details": "My name is Coco\nI am a 9 month old\nMixed breed Female",
-    "type": "",
+    "type": "Mixed breed Female",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Coco-9-mnt-x-F.jpg",
     "age": 9,
     "ageDate": "month"
@@ -74,7 +74,7 @@
   {
     "name": "Kai",
     "details": "My name is\nKai\nI am an 8 month old\nHusky girlie",
-    "type": "",
+    "type": "Husky girlie",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/01/KAI.jpg",
     "age": 8,
     "ageDate": "month"
@@ -82,7 +82,7 @@
   {
     "name": "Seuna",
     "details": "My name is Seuna\nI am an 18 month old\nLabarador x Male",
-    "type": "",
+    "type": "Labarador x Male",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Seuna-18mnt-Lab-x-M.jpg",
     "age": 18,
     "ageDate": "month"
@@ -90,7 +90,7 @@
   {
     "name": "Marshall",
     "details": "My name is Marshall\nI am a 2 year old\nMixed breed Male",
-    "type": "",
+    "type": "Mixed breed Male",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Marshall-2-yr-x-M.jpg",
     "age": 2,
     "ageDate": "year"
@@ -98,7 +98,7 @@
   {
     "name": "Mosaic",
     "details": "My name is Mosaic\nI am a 1 year old\nMixed Breed Female",
-    "type": "",
+    "type": "Mixed Breed Female",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Mosaic-1-yr-x-F.jpg",
     "age": 1,
     "ageDate": "year"
@@ -106,7 +106,7 @@
   {
     "name": "Marty",
     "details": "My name is\nMarty\nI am a 12 month old\nFox Terrier x male",
-    "type": "",
+    "type": "Fox Terrier x male",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/01/MARTY.jpg",
     "age": 12,
     "ageDate": "month"
@@ -114,7 +114,7 @@
   {
     "name": "Brakenjan",
     "details": "My name is Brakenjan\nI am a 7 month old\nMedium Size Mixed breed Male",
-    "type": "",
+    "type": "Medium Size Mixed breed Male",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Brakenjan-7-mtn-x-M-Medium.jpg",
     "age": 7,
     "ageDate": "month"
@@ -122,7 +122,7 @@
   {
     "name": "Carmella",
     "details": "My name is Carmella\nI am a 9 month old\nMedium size x Breed Female",
-    "type": "",
+    "type": "Medium size x Breed Female",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Carmella-M-size-x-F-7-months.jpg",
     "age": 9,
     "ageDate": "month"
@@ -130,7 +130,7 @@
   {
     "name": "Olivia",
     "details": "My name is\nOlivia\nI am a 6 month old\nSmall breed girlie",
-    "type": "",
+    "type": "Small breed girlie",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/02/Olivia-sml-breed-6-mnth-Fem.jpg",
     "age": 6,
     "ageDate": "month"
@@ -138,7 +138,7 @@
   {
     "name": "Quintin",
     "details": "My name is Quintin\nI am a 5 month old\nPitbull x Male",
-    "type": "",
+    "type": "Pitbull x Male",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Quintin-5-mn-Pitbull-x-M.jpg",
     "age": 5,
     "ageDate": "month"
@@ -146,7 +146,7 @@
   {
     "name": "Buksie",
     "details": "My name is\nBuksie\nI am 2 year old\nMixed Breed Male",
-    "type": "",
+    "type": "Mixed Breed Male",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/01/474208817_1036535008498121_6640354585655762868_n.jpg",
     "age": 2,
     "ageDate": "year"
@@ -154,7 +154,7 @@
   {
     "name": "Lulu",
     "details": "My name is Lulu\nI am a 5 month old\nCat friendly Mixed breed girlie",
-    "type": "",
+    "type": "Mixed breed girlie",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Lulu-5-mnth-x-F.jpg",
     "age": 5,
     "ageDate": "month"
@@ -162,7 +162,7 @@
   {
     "name": "Icarus",
     "details": "My name is\nIcarus\nI am a 7 month old\nNSB male",
-    "type": "",
+    "type": "NSB male",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/02/Icarus-7-month-old-male.jpg",
     "age": 7,
     "ageDate": "month"
@@ -170,7 +170,7 @@
   {
     "name": "Azula",
     "details": "My name is Azula\nI am a 6 month old\nSmall x Breed Female",
-    "type": "",
+    "type": "Small x Breed Female",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Azula-6-mnth-S-x-F.jpg",
     "age": 6,
     "ageDate": "month"
@@ -178,7 +178,7 @@
   {
     "name": "Bella",
     "details": "My name is\nBella\nI am a 6 month old\nNSB Female",
-    "type": "",
+    "type": "NSB Female",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/02/Bella-6-month-old-Female.jpg",
     "age": 6,
     "ageDate": "month"
@@ -186,7 +186,7 @@
   {
     "name": "Cloe",
     "details": "My name is Cloe\nI am a 1 year old\nMixed breed Female",
-    "type": "",
+    "type": "Mixed breed Female",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/CLoe-12-mtn-x-F.jpg",
     "age": 1,
     "ageDate": "year"
@@ -194,14 +194,14 @@
   {
     "name": "Rex",
     "details": "My name is Rex\nI am a 7 month old\nMixed Breed Male",
-    "type": "",
+    "type": "Mixed Breed Male",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Rex-7-mnth-x-M.jpg",
     "age": 7,
     "ageDate": "month"
   },
   {
     "name": "Paula",
-    "details": "",
+    "details": "I am an  8 month old \nDSH Female",
     "type": "DSH Female",
     "age": 8,
     "ageDate": "month",
@@ -209,7 +209,7 @@
   },
   {
     "name": "Smokey",
-    "details": "",
+    "details": "I am a 10 week old \nDSH little boy",
     "type": "DSH little boy",
     "age": 10,
     "ageDate": "week",
@@ -217,7 +217,7 @@
   },
   {
     "name": "Rubix",
-    "details": "",
+    "details": "I am a 4 year old \nMedium hair Male",
     "type": "Medium hair Male",
     "age": 4,
     "ageDate": "year",
@@ -225,26 +225,26 @@
   },
   {
     "name": "Lemon",
-    "details": "",
-    "type": "I am a 7 month old",
+    "details": "I am a 7 month old \n DSH girlie",
+    "type": "DSH girlie",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/01/488946406_1097095825775372_7550054308490326990_n.jpg"
   },
   {
     "name": "Donna",
-    "details": "",
+    "details": "I am a 1 yr old \nDSH Female",
     "type": "DSH Female",
     "age": 1,
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Donna-1yr-old-DSH-F.jpg"
   },
   {
     "name": "Uda",
-    "details": "",
-    "type": "I am an one year old",
+    "details": "I am an one year old \nDSH Female",
+    "type": "DSH Female",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/02/Uda-1-yr-old-DSH-Female.jpg"
   },
   {
     "name": "Jonel",
-    "details": "",
+    "details": "I am an 1 year old \n DSH girlie",
     "type": "DSH girlie",
     "age": 1,
     "ageDate": "year",
@@ -252,7 +252,7 @@
   },
   {
     "name": "Raven",
-    "details": "",
+    "details": "I am a 10 week old \n DSH little boy",
     "type": "DSH little boy",
     "age": 10,
     "ageDate": "week",
@@ -260,7 +260,7 @@
   },
   {
     "name": "Vinkie",
-    "details": "",
+    "details": "I am a 6 month old \n DSH Male",
     "type": "DSH Male",
     "age": 6,
     "ageDate": "month",
@@ -268,7 +268,7 @@
   },
   {
     "name": "Blackie",
-    "details": "",
+    "details": "I am a 6 month old \n DSH Male",
     "type": "DSH Male",
     "age": 6,
     "ageDate": "month",
@@ -276,7 +276,7 @@
   },
   {
     "name": "Kleintjie",
-    "details": "",
+    "details": "I am an 18 Month old \n Calico Female",
     "type": "Calico Female",
     "age": 18,
     "ageDate": "month",
@@ -284,7 +284,7 @@
   },
   {
     "name": "Mieke",
-    "details": "",
+    "details": "I am an 1 year old \n DSH Female",
     "type": "DSH Female",
     "age": 1,
     "ageDate": "year",
@@ -292,7 +292,7 @@
   },
   {
     "name": "Mama",
-    "details": "",
+    "details": "I am a 3 year old \n Calico Female",
     "type": "Calico Female",
     "age": 3,
     "ageDate": "year",
@@ -300,7 +300,7 @@
   },
   {
     "name": "PEPPER",
-    "details": "",
+    "details": "I am a 10 month old \n DSH female",
     "type": "DSH female",
     "age": 10,
     "ageDate": "month",
@@ -308,7 +308,7 @@
   },
   {
     "name": "Jinx",
-    "details": "",
+    "details": "I am a Large 1 year old \n Male Tabby Cat",
     "type": "Male Tabby Cat",
     "age": 1,
     "ageDate": "year",
