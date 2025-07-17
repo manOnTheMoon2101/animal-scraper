@@ -31,8 +31,8 @@ function Body({ data }: { data: DataItem[] }) {
     : data;
 
   return (
-    <div>
-      <div className="flex flex-row justify-center gap-4 items-center">
+    <div className="border-t-2 border-secondary my-2 mx-2">
+      <div className="flex flex-row justify-center gap-4 items-center my-24">
         <Select onValueChange={(value) => setFilter(value)} value={filter}>
           <SelectTrigger className="w-[180px]">
             <div className="flex items-center gap-2">
