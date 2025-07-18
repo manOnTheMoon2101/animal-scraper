@@ -14,8 +14,13 @@ import {
 import { Button } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
 import { McLaren } from "next/font/google";
+import { Fira_Sans } from "next/font/google";
 const mclaren = McLaren({
   weight: "400",
+  subsets: ["latin"],
+});
+const fira = Fira_Sans({
+  weight: "200",
   subsets: ["latin"],
 });
 export function MorphingDialogBasicOne({ data }: { data: any }) {
@@ -49,7 +54,7 @@ export function MorphingDialogBasicOne({ data }: { data: any }) {
             <MorphingDialogTitle className="text-foregound flex flex-row justify-start">
               {data.name}
             </MorphingDialogTitle>
-            <MorphingDialogSubtitle className={`text-secondary flex flex-row justify-start  ${mclaren.className}`}>
+            <MorphingDialogSubtitle className={`text-secondary flex flex-row justify-start  ${fira.className}`}>
               {data.type
                 ? data.type
                     .split(" ")
@@ -85,7 +90,7 @@ export function MorphingDialogBasicOne({ data }: { data: any }) {
             <MorphingDialogTitle className="text-foregound flex flex-row justify-start">
               {data.name}
             </MorphingDialogTitle>
-            <MorphingDialogSubtitle className={`text-secondary flex flex-row justify-start ${mclaren.className} `}>
+            <MorphingDialogSubtitle className={`text-secondary flex flex-row justify-start ${fira.className} `}>
               {data.details}
             </MorphingDialogSubtitle>
             <MorphingDialogDescription
