@@ -15,7 +15,7 @@ const mclaren = McLaren({
   subsets: ["latin"],
 });
 const fira = Fira_Sans({
-  weight: "200",
+  weight: "400",
   subsets: ["latin"],
 });
 function Header() {
@@ -68,7 +68,7 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className="flex flex-row justify-center text-left text-2xl md:text-6xl text-gray-600 mx-2 my-48">
+      <div className="flex flex-row justify-center text-center md:text-left text-2xl md:text-6xl text-gray-600 mx-2 my-48">
         <p className={` ${fira.className}`}>
           You can make a difference by adopting one of our lovely animals and
           helping us on our way to give every animal a
