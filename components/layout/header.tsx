@@ -70,7 +70,7 @@ function Header() {
         </div>
       </div>
       <div className="flex flex-row justify-center text-center md:text-left text-2xl md:text-6xl text-gray-600 mx-2 my-48">
-        <p className={` ${fira.className}`}>
+        <p className={` ${fira.className} mx-2`}>
           You can make a difference by adopting one of our lovely animals and
           helping us on our way to give every animal a {" "}
           <span className="flex flex-col md:inline-flex md:flex-row items-center">
