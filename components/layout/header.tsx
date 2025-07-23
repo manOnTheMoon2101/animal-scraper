@@ -5,6 +5,7 @@ import Image from "next/image";
 import dog from "@/public/dog.jpg";
 import RandomTip from "./Header/Tips/tips";
 import { Dog, Cat } from "lucide-react";
+import cat from "../../public/cat.jpg";
 import { McLaren } from "next/font/google";
 import { Fira_Sans } from "next/font/google";
 import { Badge } from "../ui/badge";
@@ -32,12 +33,12 @@ function Header() {
       {/* <div className="flex justify-end mx-4 my-4">
         <ModeToggle />
       </div> */}
-      <div className="flex flex-col md:flex-row justify-center bg-secondary mx-2 my-2 rounded">
+      <div className="flex flex-col md:flex-row justify-center mx-2 my-2 rounded">
         <div className="flex flex-col items-center justify-center w-full md:w-1/2 mt-8 md:mt-0">
           <div className="flex my-14 md:my-28 items-center md:items-end justify-center md:justify-start">
-            <h1 className={`text-2xl  text-white`}>Give a </h1>
+            <h1 className={`text-2xl`}>Give a </h1>
             <span
-              className={`italic text-6xl md:text-8xl mx-2 text-primary ${mclaren.className}`}
+              className={`italic text-6xl md:text-8xl mx-2 text-secondary ${mclaren.className}`}
             >
               Shelter
             </span>
@@ -49,9 +50,9 @@ function Header() {
             <Cat size={36} className="text-accent mx-2 md:mx-4 animate-bounce" />
           </div> */}
           <div className="flex my-14 md:my-28 items-center md:items-end justify-center md:justify-start">
-            <h1 className={`text-2xl text-white`}>Gain a </h1>
+            <h1 className={`text-2xl`}>Gain a </h1>
             <span
-              className={`italic text-6xl md:text-8xl mx-2 text-primary ${mclaren.className}`}
+              className={`italic text-6xl md:text-8xl mx-2 text-secondary ${mclaren.className}`}
             >
               Friend!
             </span>
@@ -83,8 +84,18 @@ function Header() {
         </p>
       </div>
 
-      <div className="my-24 mx-2">
-        <span className={`"text-xl text-gray-600 text-left  ${fira.className}`}>
+      <div className="my-24 mx-2 flex flex-col md:flex-row items-center">
+
+      <div className="mx-2">
+            <Image
+              alt="Photo by EVG Kowalievska from Pexels: https://www.pexels.com/photo/selective-focus-photography-of-orange-tabby-cat-1170986/"
+              src={cat}
+              height={1200}
+              width={1000}
+              className="rounded-4xl my-2"
+            />
+          </div>
+        <span className={`"text-xl text-gray-600 text-left bg-primary  ${fira.className}`}>
           Bona fide monetary donations qualify for an 18A tax certificate and
           entitles you to a tax deduction in respect of your donation. Donors
           who are South African taxpayers are entitled to deduct the total value
