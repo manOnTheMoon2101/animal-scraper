@@ -72,9 +72,9 @@ function Header() {
       <div className="flex flex-row justify-center text-center md:text-left text-2xl md:text-6xl text-gray-600 mx-2 my-48">
         <p className={` ${fira.className}`}>
           You can make a difference by adopting one of our lovely animals and
-          helping us on our way to give every animal a
+          helping us on our way to give every animal a {" "}
           <span className="flex flex-col md:inline-flex md:flex-row items-center">
-            <span className="underline text-secondary font-bold"> friendly</span>,
+            <span className="underline text-secondary font-bold">friendly</span>,
             welcoming and safe home
             <Dog
               size={48}
