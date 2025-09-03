@@ -42,7 +42,7 @@ export function MorphingDialogBasicOne({ data }: { data: any }) {
         style={{
           borderRadius: "12px",
         }}
-        className="flex max-w-[270px] flex-col overflow-hidden shadow-lg bg-background"
+        className="flex max-w-[270px] flex-col overflow-hidden shadow-2xl shadow-secondary bg-background"
       >
         <MorphingDialogImage
           src={data.image}
