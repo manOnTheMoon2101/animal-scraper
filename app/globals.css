@@ -61,12 +61,12 @@
 }
 
 :root {
-  --background: oklch(0.984 0.003 247.858);
+  --background: oklch(0.9799 0.0145 102.45);
   --foreground: oklch(0 0 187.36);
   --card: oklch(0.208 0.042 265.755);
-  --primary: oklch(0.98 0.038 100.62);
-  --secondary: oklch(0.62 0.1046 187.36);
-  --accent: oklch(0.48 0.08 191.36);
+  --primary: oklch(0.9491 0 0);
+  --secondary: oklch(0.861 0.025 71.43);
+  --accent: oklch(0.7381 0.0317 134.47);
   --destructive: oklch(0.704 0.191 22.216);
 }
 

@@ -74,7 +74,7 @@ function Header() {
           You can make a difference by adopting one of our lovely animals and
           helping us on our way to give every animal a {" "}
           <span className="flex flex-col md:inline-flex md:flex-row items-center">
-            <span className="underline text-secondary font-bold">friendly</span>,
+            <span className="text-secondary font-bold">friendly</span>,
             welcoming and safe home
             <Dog
               size={48}
@@ -95,7 +95,7 @@ function Header() {
               className="rounded-4xl my-2"
             />
           </div>
-        <span className={`"text-xl text-gray-600 text-left bg-primary  ${fira.className}`}>
+        <span className={`"text-xl text-gray-600 text-left border border-secondary p-2 rounded-2xl  ${fira.className}`}>
           Bona fide monetary donations qualify for an 18A tax certificate and
           entitles you to a tax deduction in respect of your donation. Donors
           who are South African taxpayers are entitled to deduct the total value
