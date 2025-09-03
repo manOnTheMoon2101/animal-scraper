@@ -51,10 +51,10 @@ export function MorphingDialogBasicOne({ data }: { data: any }) {
         />
         <div className="flex grow flex-row items-end justify-between px-3 py-2">
           <div>
-            <MorphingDialogTitle className="text-secondary flex flex-row justify-start font-bold">
+            <MorphingDialogTitle className="text-secondary text-2xl flex flex-row justify-start font-bold">
               {data.name}
             </MorphingDialogTitle>
-            <MorphingDialogSubtitle className={`text-muted flex flex-row justify-start  ${fira.className}`}>
+            <MorphingDialogSubtitle className={`text-accent flex flex-row justify-start  ${fira.className}`}>
               {data.type
                 ? data.type
                     .split(" ")
@@ -87,7 +87,7 @@ export function MorphingDialogBasicOne({ data }: { data: any }) {
             className="h-full w-full"
           />
           <div className="p-6">
-            <MorphingDialogTitle className="text-accent font-bold flex flex-row justify-start">
+            <MorphingDialogTitle className="text-accent text-2xl font-bold flex flex-row justify-start">
               {data.name}
             </MorphingDialogTitle>
             <MorphingDialogSubtitle className={`text-muted flex flex-row justify-start ${fira.className} `}>

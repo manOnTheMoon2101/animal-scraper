@@ -74,7 +74,7 @@ function Header() {
           You can make a difference by adopting one of our lovely animals and
           helping us on our way to give every animal a {" "}
           <span className="flex flex-col md:inline-flex md:flex-row items-center">
-            <span className="underline text-secondary font-bold">friendly</span>,
+            <span className="text-secondary font-bold">friendly</span>,
             welcoming and safe home
             <Dog
               size={48}
