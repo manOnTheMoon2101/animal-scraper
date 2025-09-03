@@ -51,10 +51,10 @@ export function MorphingDialogBasicOne({ data }: { data: any }) {
         />
         <div className="flex grow flex-row items-end justify-between px-3 py-2">
           <div>
-            <MorphingDialogTitle className="text-foregound flex flex-row justify-start">
+            <MorphingDialogTitle className="text-secondary flex flex-row justify-start font-bold">
               {data.name}
             </MorphingDialogTitle>
-            <MorphingDialogSubtitle className={`text-secondary flex flex-row justify-start  ${fira.className}`}>
+            <MorphingDialogSubtitle className={`text-muted flex flex-row justify-start  ${fira.className}`}>
               {data.type
                 ? data.type
                     .split(" ")
@@ -67,7 +67,7 @@ export function MorphingDialogBasicOne({ data }: { data: any }) {
             </MorphingDialogSubtitle>
           </div>
           <div
-            className="relative ml-1 flex h-6 w-6 shrink-0 scale-100 select-none appearance-none items-center justify-center  border border-accent text-accent rounded"
+            className="relative bg-accent ml-1 flex h-6 w-6 shrink-0 scale-100 select-none appearance-none items-center justify-center  border border-accent text-white rounded"
             aria-label="Open dialog"
           >
             <ExternalLink size={12} className="hover:text-primary" />
@@ -87,10 +87,10 @@ export function MorphingDialogBasicOne({ data }: { data: any }) {
             className="h-full w-full"
           />
           <div className="p-6">
-            <MorphingDialogTitle className="text-foregound flex flex-row justify-start">
+            <MorphingDialogTitle className="text-accent font-bold flex flex-row justify-start">
               {data.name}
             </MorphingDialogTitle>
-            <MorphingDialogSubtitle className={`text-secondary flex flex-row justify-start ${fira.className} `}>
+            <MorphingDialogSubtitle className={`text-muted flex flex-row justify-start ${fira.className} `}>
               {data.details}
             </MorphingDialogSubtitle>
             <MorphingDialogDescription
