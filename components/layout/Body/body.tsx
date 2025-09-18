@@ -12,7 +12,7 @@ import { Button } from "@/components/ui/button";
 import { Filter } from "lucide-react";
 
 interface DataItem {
-  type: string;
+  animalType: string;
   [key: string]: any;
 }
 
@@ -20,14 +20,14 @@ function Body({ data }: { data: DataItem[] }) {
   const [filter, setFilter] = useState<string>("");
 
   const uniqueTypes = useMemo(() => {
-    const types = new Set(data.map((item) => item.type?.toLowerCase()));
+    const types = new Set(data.map((item) => item.animalType?.toLowerCase()));
     return Array.from(types)
       .filter(Boolean)
       .sort((a, b) => a.localeCompare(b)) as string[];
   }, [data]);
 
   const filteredData = filter
-    ? data.filter((item) => item.type?.toLowerCase() === filter.toLowerCase())
+    ? data.filter((item) => item.animalType?.toLowerCase() === filter.toLowerCase())
     : data;
 
   return (
@@ -41,9 +41,9 @@ function Body({ data }: { data: DataItem[] }) {
             </div>
           </SelectTrigger>
           <SelectContent>
-            {uniqueTypes.map((type) => (
-              <SelectItem key={type} value={type}>
-                {type.charAt(0).toUpperCase() + type.slice(1)}
+            {uniqueTypes.map((animalType) => (
+              <SelectItem key={animalType} value={animalType}>
+                {animalType.charAt(0).toUpperCase()  + animalType.slice(1) + 's'}
               </SelectItem>
             ))}
           </SelectContent>
