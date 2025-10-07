@@ -13,23 +13,13 @@ import {
 } from "@/components/motion-primitives/morphing-dialog";
 import { Button } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
-import { McLaren } from "next/font/google";
 import { Fira_Sans } from "next/font/google";
-const mclaren = McLaren({
-  weight: "400",
-  subsets: ["latin"],
-});
 const fira = Fira_Sans({
   weight: "200",
   subsets: ["latin"],
 });
 export function MorphingDialogBasicOne({ data }: { data: any }) {
-  function capitalizeAllLetters(text: string): string {
-    return text
-      .split(" ")
-      .map((word) => word.toUpperCase())
-      .join(" ");
-  }
+ 
   return (
     <MorphingDialog
       transition={{
