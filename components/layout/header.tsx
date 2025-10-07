@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { ModeToggle } from "./Header/Theme_Toggle/toggle";
 import Image from "next/image";
 import dog from "@/public/dog.jpg";
@@ -20,6 +20,13 @@ const fira = Fira_Sans({
   subsets: ["latin"],
 });
 function Header() {
+  const [showDog, setShowDog] = useState(true);
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setShowDog((prev) => !prev);
+    }, 3000);
+    return () => clearInterval(intervalId);
+  }, []);
   const copyToClipboard = async () => {
     try {
       await navigator.clipboard.writeText("info@wellingtonspca.co.za");
@@ -69,6 +76,15 @@ function Header() {
           </div>
         </div>
       </div>
+      <div className="flex flex-row justify-center text-center md:text-center text-2xl md:text-6xl text-gray-600 mx-2 my-12">
+        <div className={`transition-transform duration-700 ${showDog ? "rotate-0" : "rotate-360"}`}>
+          {showDog ? (
+            <Dog size={62} className="text-accent mx-2 my-2 md:mx-4 animate-bounce md:my-4" />
+          ) : (
+            <Cat size={62} className="text-accent mx-2 my-2 md:mx-4 animate-bounce md:my-4" />
+          )}
+        </div>
+      </div>
       <div className="flex flex-row justify-center text-center md:text-center text-2xl md:text-6xl text-gray-600 mx-2 my-48">
         <p className={` ${fira.className} mx-2`}>
           You can make a difference by adopting one of our lovely animals and
@@ -76,10 +92,6 @@ function Header() {
           <span className="flex flex-col md:inline-flex md:flex-row items-center">
             <span className="text-secondary font-bold">friendly</span>,
             welcoming and safe home
-            <Dog
-              size={48}
-              className="text-accent mx-2 my-2 md:mx-4 animate-bounce md:my-4"
-            />
           </span>
         </p>
       </div>
