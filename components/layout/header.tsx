@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { ModeToggle } from "./Header/Theme_Toggle/toggle";
 import Image from "next/image";
 import dog from "@/public/dog.jpg";
@@ -20,6 +20,13 @@ const fira = Fira_Sans({
   subsets: ["latin"],
 });
 function Header() {
+  const [showDog, setShowDog] = useState(true);
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setShowDog((prev) => !prev);
+    }, 3000);
+    return () => clearInterval(intervalId);
+  }, []);
   const copyToClipboard = async () => {
     try {
       await navigator.clipboard.writeText("info@wellingtonspca.co.za");
@@ -69,6 +76,15 @@ function Header() {
           </div>
         </div>
       </div>
+      <div className="flex flex-row justify-center text-center md:text-center text-2xl md:text-6xl text-gray-600 mx-2 my-12">
+        <div className={`transition-transform duration-700 ${showDog ? "rotate-0" : "rotate-360"}`}>
+          {showDog ? (
+            <Dog size={62} className="text-accent mx-2 my-2 md:mx-4 animate-bounce md:my-4" />
+          ) : (
+            <Cat size={62} className="text-accent mx-2 my-2 md:mx-4 animate-bounce md:my-4" />
+          )}
+        </div>
+      </div>
       <div className="flex flex-row justify-center text-center md:text-center text-2xl md:text-6xl text-gray-600 mx-2 my-48">
         <p className={` ${fira.className} mx-2`}>
           You can make a difference by adopting one of our lovely animals and
@@ -76,10 +92,6 @@ function Header() {
           <span className="flex flex-col md:inline-flex md:flex-row items-center">
             <span className="text-secondary font-bold">friendly</span>,
             welcoming and safe home
-            <Dog
-              size={48}
-              className="text-accent mx-2 my-2 md:mx-4 animate-bounce md:my-4"
-            />
           </span>
         </p>
       </div>
@@ -96,18 +108,18 @@ function Header() {
             />
           </div>
         <span className={`"text-xl text-gray-600 text-left border border-secondary p-2 rounded-2xl  ${fira.className}`}>
-          Bona fide monetary donations qualify for an 18A tax certificate and
-          entitles you to a tax deduction in respect of your donation. Donors
+         <span className="text-2xl text-accent font-bold"> Bona fide monetary</span> donations qualify for an 18A tax certificate and
+          entitles you to a tax deduction in respect of your donation.<br/><br/>Donors
           who are South African taxpayers are entitled to deduct the total value
           of their donations to 18A approved organisations, like Wellington
-          SPCA, in any tax year, up to a limit of 10% of their taxable income
-          for that tax year. Should you require an 18A tax certificate in lieu
+          SPCA, in any tax year, up to a <span className="underline">limit of 10%</span> of their taxable income
+          for that tax year.<br/><br/>Should you require an 18A tax certificate in lieu
           of for your kind donation, please email us at{" "}
-          <Badge className="cursor-pointer italic" onClick={copyToClipboard}>
+          <Badge className="cursor-pointer italic rounded-full bg-accent text-primary" onClick={copyToClipboard}>
             info@wellingtonspca.co.za
           </Badge>{" "}
           together with the proof of donation. or visit{" "}
-          <Badge className="cursor-pointer">
+          <Badge className="cursor-pointer rounded-full bg-accent text-primary">
             <Link
               className="italic"
               href="https://wellingtonspca.co.za/help/"
