@@ -108,18 +108,18 @@ function Header() {
             />
           </div>
         <span className={`"text-xl text-gray-600 text-left border border-secondary p-2 rounded-2xl  ${fira.className}`}>
-          Bona fide monetary donations qualify for an 18A tax certificate and
-          entitles you to a tax deduction in respect of your donation. Donors
+         <span className="text-2xl text-accent font-bold"> Bona fide monetary</span> donations qualify for an 18A tax certificate and
+          entitles you to a tax deduction in respect of your donation.<br/><br/>Donors
           who are South African taxpayers are entitled to deduct the total value
           of their donations to 18A approved organisations, like Wellington
-          SPCA, in any tax year, up to a limit of 10% of their taxable income
-          for that tax year. Should you require an 18A tax certificate in lieu
+          SPCA, in any tax year, up to a <span className="underline">limit of 10%</span> of their taxable income
+          for that tax year.<br/><br/>Should you require an 18A tax certificate in lieu
           of for your kind donation, please email us at{" "}
-          <Badge className="cursor-pointer italic" onClick={copyToClipboard}>
+          <Badge className="cursor-pointer italic rounded-full bg-accent text-primary" onClick={copyToClipboard}>
             info@wellingtonspca.co.za
           </Badge>{" "}
           together with the proof of donation. or visit{" "}
-          <Badge className="cursor-pointer">
+          <Badge className="cursor-pointer rounded-full bg-accent text-primary">
             <Link
               className="italic"
               href="https://wellingtonspca.co.za/help/"
