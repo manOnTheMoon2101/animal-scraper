@@ -19,12 +19,7 @@ const fira = Fira_Sans({
   subsets: ["latin"],
 });
 export function MorphingDialogBasicOne({ data }: { data: any }) {
-  function capitalizeAllLetters(text: string): string {
-    return text
-      .split(" ")
-      .map((word) => word.toUpperCase())
-      .join(" ");
-  }
+ 
   return (
     <MorphingDialog
       transition={{
