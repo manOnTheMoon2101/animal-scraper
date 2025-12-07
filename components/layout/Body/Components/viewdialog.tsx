@@ -64,12 +64,12 @@ export function MorphingDialogBasicOne({ data }: { data: any }) {
           </div>
         </div>
       </MorphingDialogTrigger>
-      <MorphingDialogContainer>
+      <MorphingDialogContainer >
         <MorphingDialogContent
           style={{
             borderRadius: "24px",
           }}
-          className="pointer-events-auto relative flex h-auto w-full flex-col overflow-hidden bg-background sm:w-[500px]"
+          className="pointer-events-auto relative flex h-auto w-full flex-col overflow-hidden bg-background sm:w-[500px] max-h-[90vh] overflow-y-auto"
         >
           <MorphingDialogImage
             src={data.image}
