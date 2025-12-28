@@ -1,48 +1,12 @@
 [
   {
-    "name": "Vera",
-    "details": "Hi my name is Vera\nI am cat friendly 2 year old\nMixed breed girlie",
-    "type": "breed girlie",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Vera-2-yr-old-cat-friendly-F.jpg",
-    "age": 2,
-    "ageDate": "year",
-    "animalType": "Dog"
-  },
-  {
-    "name": "Cloe",
-    "details": "Hi my name is Cloe\nI am a 6 month old\nMixed breed Girlie",
-    "type": "breed Girlie",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Cloe-6-month-old-xbreed-F.jpg",
-    "age": 6,
-    "ageDate": "month",
-    "animalType": "Dog"
-  },
-  {
-    "name": "Optel",
-    "details": "Hi my name is Optel\nI am a 14 week old\nMixed breed Girlie",
-    "type": "Mixed breed Girlie",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Optel-14-wk-F.jpg",
-    "age": 14,
-    "ageDate": "week",
-    "animalType": "Dog"
-  },
-  {
-    "name": "Tomks",
-    "details": "Hi my name is Tomks\nI am a 12 month old\nMixed breed Male",
-    "type": "Mixed breed Male",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/TOMKS-12-m-M.jpg",
+    "name": "Silk",
+    "details": "Hi my name is Silk I am a 12 week old DSH Male",
+    "type": "DSH Male",
     "age": 12,
-    "ageDate": "month",
-    "animalType": "Dog"
-  },
-  {
-    "name": "Mielies",
-    "details": "Hi my name is Mielies\nI am a 10 week old\nMixed breed Girlie",
-    "type": "Mixed breed Girli",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Mielies-10wk-old-F.jpg",
-    "age": 10,
     "ageDate": "week",
-    "animalType": "Dog"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Silk-12-wk-old-M.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Buksie",
@@ -51,87 +15,6 @@
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/01/474208817_1036535008498121_6640354585655762868_n.jpg",
     "age": 2,
     "ageDate": "year",
-    "animalType": "Dog"
-  },
-  {
-    "name": "Adele",
-    "details": "My name is Adele\nI am a 6 month old\nAfricanis Girlie",
-    "type": "Africanis Girlie",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/08/Adele-6-month-ol-Africanus-F.jpg",
-    "age": 6,
-    "ageDate": "month",
-    "animalType": "Dog"
-  },
-  {
-    "name": "Barry",
-    "details": "Hi my name is Barry\nI am a 4 month old\nMixed breed Male",
-    "type": "Mixed breed Male",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Barry-4-mont-old-x-breed-male.jpg",
-    "age": 4,
-    "ageDate": "month",
-    "animalType": "Dog"
-  },
-  {
-    "name": "Bear",
-    "details": "Hi my name is Bear\nI am a 2 year old\nLab x Golden Caramel BIG BOY",
-    "type": "Lab x Golden Caramel BIG BOY",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Bear-Golden-Caramel-2-year-old-LAbx-M.jpg",
-    "age": 2,
-    "ageDate": "year",
-    "animalType": "Dog"
-  },
-  {
-    "name": "Scooby",
-    "details": "Hi my name is Scooby\nI am an 18 month old\nWirehair x Male",
-    "type": "Wirehair x Male",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Scooby-18-mnt-old-M-Wirehair-x.jpg",
-    "age": 18,
-    "ageDate": "month",
-    "animalType": "Dog"
-  },
-  {
-    "name": "Biscuit",
-    "details": "Hi my name is Biscuit\nI am a 2 year old\nMixed Breed Male",
-    "type": "Mixed Breed Male",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Biscuit-2-year-old-Mixed-breed-male.jpg",
-    "age": 2,
-    "ageDate": "year",
-    "animalType": "Dog"
-  },
-  {
-    "name": "Coco",
-    "details": "My name is Coco\nI am a 9 month old\nMixed breed Female",
-    "type": "Mixed breed Female",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Coco-9-mnt-x-F.jpg",
-    "age": 9,
-    "ageDate": "month",
-    "animalType": "Dog"
-  },
-  {
-    "name": "Sparky",
-    "details": "Hi my name is Sparky\nI am a 2 year old\nMixed breed Male",
-    "type": "Mixed breed Male",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Sparky-2-yr-old-M.jpg",
-    "age": 2,
-    "ageDate": "year",
-    "animalType": "Dog"
-  },
-  {
-    "name": "Tyson",
-    "details": "Hi my name is Tyson\nI am 3 year old\nTerrier x Male",
-    "type": "Terrier x Male",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Tyson-3-yr-old-Terrier-x-M.jpg",
-    "age": 3,
-    "ageDate": "year",
-    "animalType": "Dog"
-  },
-  {
-    "name": "Shelly",
-    "details": "Hi my name is Shelly\nI am an 18 month old\nMixed breed Female",
-    "type": "Mixed breed Female",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Shelly-18mnt-F.jpg",
-    "age": 18,
-    "ageDate": "month",
     "animalType": "Dog"
   },
   {
@@ -144,29 +27,173 @@
     "animalType": "Dog"
   },
   {
-    "name": "James",
-    "details": "Hi my name is James\nI am a 12 month old\nCollie x Male",
-    "type": "Collie x Male",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/James-12-mnt-old-Collie-x-M.jpg",
+    "name": "Hazel",
+    "details": "Hi my name is Hazel I am a 6 month old DSH Girlie",
+    "type": "DSH Girlie",
+    "age": 6,
+    "ageDate": "month",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Hazel-6-mnt-F.jpg",
+    "animalType": "Cat"
+  },
+  {
+    "name": "Tyson",
+    "details": "Hi my name is Tyson\nI am 3 year old\nTerrier x Male",
+    "type": "Terrier x Male",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Tyson-3-yr-old-Terrier-x-M.jpg",
+    "age": 3,
+    "ageDate": "year",
+    "animalType": "Dog"
+  },
+  {
+    "name": "Ripple",
+    "details": "Hi my name is Ripple I am a 12 week old DSH Male",
+    "type": "DSH Male",
     "age": 12,
+    "ageDate": "week",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Ripple-12-wk-old-M.jpg",
+    "animalType": "Cat"
+  },
+  {
+    "name": "Cloe",
+    "details": "Hi my name is Cloe\nI am a 6 month old\nMixed breed Girlie",
+    "type": "breed Girlie",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Cloe-6-month-old-xbreed-F.jpg",
+    "age": 6,
     "ageDate": "month",
     "animalType": "Dog"
   },
   {
-    "name": "Zhara",
-    "details": "Hi my name is Zhara\nI am a 2 year old\nRottweiler Cross Female",
-    "type": "Rottweiler Cross Female",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/ZHara-2-yr-old-Rottweiler-x-F.jpg",
+    "name": "Tammy",
+    "details": "Hi my name is Tammy I am an 18 month old DSH Girlie",
+    "type": "DSH Girlie",
+    "age": 18,
+    "ageDate": "month",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Tammy-18-mnt-old-F.jpg",
+    "animalType": "Cat"
+  },
+  {
+    "name": "Copper",
+    "details": "Hi my name is Copper\nI am an 18 month old\nMixed breed Male",
+    "type": "Mixed breed Male",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Copper-18-month-old-xbreed-M.jpg",
+    "age": 18,
+    "ageDate": "month",
+    "animalType": "Dog"
+  },
+  {
+    "name": "Blackie",
+    "details": "My name is Blackie I am a 6 month old DSH Male",
+    "type": "DSH Male",
+    "age": 6,
+    "ageDate": "month",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Blackie-6-mnth-DSH-M.jpg",
+    "animalType": "Cat"
+  },
+  {
+    "name": "Vera",
+    "details": "Hi my name is Vera\nI am cat friendly 2 year old\nMixed breed girlie",
+    "type": "breed girlie",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Vera-2-yr-old-cat-friendly-F.jpg",
     "age": 2,
     "ageDate": "year",
     "animalType": "Dog"
   },
   {
-    "name": "Steffie",
-    "details": "Hi my name is Steffie\nI am a 12 month old\nMixed breed girlie",
-    "type": "Mixed breed girlie",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Steffie-12-wk-old-F.jpg",
+    "name": "Niko",
+    "details": "Hi my name is Niko I am an 1 year old DSH Male",
+    "type": "DSH Male",
+    "age": 1,
+    "ageDate": "year",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Niko-1-yr-M.jpg",
+    "animalType": "Cat"
+  },
+  {
+    "name": "Scoot",
+    "details": "Hi my name is ScootI am a 12 week old DSH Female",
+    "type": "DSH Female",
     "age": 12,
+    "ageDate": "week",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Scoot-12-week-F.jpg",
+    "animalType": "Cat"
+  },
+  {
+    "name": "Jinx",
+    "details": "My name is Jinx I am a Large 1 year old Male Tabby Cat",
+    "type": "Male Tabby Cat",
+    "age": 1,
+    "ageDate": "year",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Jinx-L-Tabby-male-1-yr-old.jpg",
+    "animalType": "Cat"
+  },
+  {
+    "name": "Sparky",
+    "details": "Hi my name is Sparky\nI am a 2 year old\nMixed breed Male",
+    "type": "Mixed breed Male",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Sparky-2-yr-old-M.jpg",
+    "age": 2,
+    "ageDate": "year",
+    "animalType": "Dog"
+  },
+  {
+    "name": "Thalia",
+    "details": "Hi my name is ThaliaI am a 4 month old DSH Girlie",
+    "type": "DSH Girlie",
+    "age": 4,
+    "ageDate": "month",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Thalia-4-mnt-old-F.jpg",
+    "animalType": "Cat"
+  },
+  {
+    "name": "Mielies",
+    "details": "Hi my name is Mielies\nI am a 10 week old\nMixed breed Girlie",
+    "type": "Mixed breed Girli",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Mielies-10wk-old-F.jpg",
+    "age": 10,
+    "ageDate": "week",
+    "animalType": "Dog"
+  },
+  {
+    "name": "Donna",
+    "details": "My name is DonnaI am a 1 yr old DSH Female",
+    "type": "DSH Female",
+    "age": 1,
+    "ageDate": "year",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Donna-1yr-old-DSH-F.jpg",
+    "animalType": "Cat"
+  },
+  {
+    "name": "Micky",
+    "details": "Hi my name is Micky\nI am a 3 year old\nGSDxCollie Female",
+    "type": "GSDxCollie Female",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Micky-3-yr-old-GSDxCollie-F.jpg",
+    "age": 3,
+    "ageDate": "year",
+    "animalType": "Dog"
+  },
+  {
+    "name": "Frikkie",
+    "details": "Hi my name is Frikkie I am an 18 week old DSH Girlie",
+    "type": "DSH Girlie",
+    "age": 18,
+    "ageDate": "week",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Frikkie-18-wk-F.jpg",
+    "animalType": "Cat"
+  },
+  {
+    "name": "Aspen",
+    "details": "Hi my name is Aspen I am a 12 week old DSH Male",
+    "type": "DSH Male",
+    "age": 12,
+    "ageDate": "week",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Aspen-12-week-M.jpg",
+    "animalType": "Cat"
+  },
+  {
+    "name": "Coco",
+    "details": "My name is Coco\nI am a 9 month old\nMixed breed Female",
+    "type": "Mixed breed Female",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Coco-9-mnt-x-F.jpg",
+    "age": 9,
     "ageDate": "month",
     "animalType": "Dog"
   },
@@ -180,121 +207,22 @@
     "animalType": "Dog"
   },
   {
-    "name": "Marty",
-    "details": "My name is\nMarty\nI am a 12 month old\nFox Terrier x male",
-    "type": "Fox Terrier x male",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/01/MARTY.jpg",
-    "age": 12,
-    "ageDate": "month",
-    "animalType": "Dog"
-  },
-  {
-    "name": "Micky",
-    "details": "Hi my name is Micky\nI am a 3 year old\nGSDxCollie Female",
-    "type": "GSDxCollie Female",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Micky-3-yr-old-GSDxCollie-F.jpg",
-    "age": 3,
-    "ageDate": "year",
-    "animalType": "Dog"
-  },
-  {
-    "name": "Bella",
-    "details": "My name is\nBella\nI am a 12 month old\nNSB Female",
-    "type": "NSB Female",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/02/Bella.jpg",
-    "age": 12,
-    "ageDate": "month",
-    "animalType": "Dog"
-  },
-  {
-    "name": "Copper",
-    "details": "Hi my name is Copper\nI am an 18 month old\nMixed breed Male",
-    "type": "Mixed breed Male",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Copper-18-month-old-xbreed-M.jpg",
-    "age": 18,
-    "ageDate": "month",
-    "animalType": "Dog"
-  },
-  {
-    "name": "Jess",
-    "details": "Hi my name is Jess\nI am a 7 month old, cat friendly\nMixed breed Girlie",
-    "type": "Mixed breed Girlie",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Jess-7-mnt-old-cat-friendly-F.jpg",
-    "age": 7,
-    "ageDate": "month",
-    "animalType": "Dog"
-  },
-  {
-    "name": "Le Roux",
-    "details": "Hi my name is Le Roux I am a 10 week old DSH Male",
-    "type": "DSH Male",
-    "age": 10,
-    "ageDate": "week",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Le-Roux-10-wk-old-M.jpg",
-    "animalType": "Cat"
-  },
-  {
-    "name": "Monica",
-    "details": "Hi my name is Monica I am a 10 week old DSH Girlie",
+    "name": "Gremlin",
+    "details": "Hi my name is Gremlin I am a 1 year old DSH Girlie",
     "type": "DSH Girlie",
-    "age": 10,
-    "ageDate": "week",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Monica-10wk-old-F.jpg",
-    "animalType": "Cat"
-  },
-  {
-    "name": "Rain",
-    "details": "Hi my name is Rain I am a 18 week old DSH Male",
-    "type": "DSH Male",
-    "age": 18,
-    "ageDate": "week",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Rain-18-wk-old-M.jpg",
-    "animalType": "Cat"
-  },
-  {
-    "name": "Jinx",
-    "details": "My name is Jinx I am a Large 1 year old Male Tabby Cat",
-    "type": "Male Tabby Cat",
     "age": 1,
     "ageDate": "year",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Jinx-L-Tabby-male-1-yr-old.jpg",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Gremlin-1-yr-old-F.jpg",
     "animalType": "Cat"
   },
   {
-    "name": "Tiger",
-    "details": "Hi my name is Tiger I am an 11 month old DSH Girlie",
-    "type": "DSH Girlie",
-    "age": 11,
+    "name": "Tomks",
+    "details": "Hi my name is Tomks\nI am a 12 month old\nMixed breed Male",
+    "type": "Mixed breed Male",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/TOMKS-12-m-M.jpg",
+    "age": 12,
     "ageDate": "month",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Tiger-11-mnt-old-F.jpg",
-    "animalType": "Cat"
-  },
-  {
-    "name": "Mona",
-    "details": "Hi my name is Mona I am an 18 month old DSH Girlie",
-    "type": "DSH Girlie",
-    "age": 18,
-    "ageDate": "month",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Mona-18-mnt-F.jpg",
-    "animalType": "Cat"
-  },
-  {
-    "name": "Line",
-    "details": "My name is Line I am a 4 year old DSH Tabby girlie",
-    "type": "DSH Tabby girlie",
-    "age": 4,
-    "ageDate": "year",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/08/Line-4-yr-old-F.jpg",
-    "animalType": "Cat"
-  },
-  {
-    "name": "Tammy",
-    "details": "Hi my name is Tammy I am an 18 month old DSH Girlie",
-    "type": "DSH Girlie",
-    "age": 18,
-    "ageDate": "month",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Tammy-18-mnt-old-F.jpg",
-    "animalType": "Cat"
+    "animalType": "Dog"
   },
   {
     "name": "Uda",
@@ -306,57 +234,39 @@
     "animalType": "Cat"
   },
   {
-    "name": "Mr Bojangles",
-    "details": "Hi my name is Bojangles I am an 18 month old DSH Male",
-    "type": "DSH Male",
+    "name": "Scooby",
+    "details": "Hi my name is Scooby\nI am an 18 month old\nWirehair x Male",
+    "type": "Wirehair x Male",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Scooby-18-mnt-old-M-Wirehair-x.jpg",
     "age": 18,
     "ageDate": "month",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Mr-Bojangles-18mnt-M.jpg",
-    "animalType": "Cat"
+    "animalType": "Dog"
   },
   {
-    "name": "Hazel",
-    "details": "Hi my name is Hazel I am a 6 month old DSH Girlie",
-    "type": "DSH Girlie",
-    "age": 6,
-    "ageDate": "month",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Hazel-6-mnt-F.jpg",
-    "animalType": "Cat"
-  },
-  {
-    "name": "Jerry",
-    "details": "My name is Jerry I am an one year old DSH Male",
-    "type": "DSH Male",
-    "age": 1,
-    "ageDate": "year",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/08/Jerry-1-yr-old-M.jpg",
-    "animalType": "Cat"
-  },
-  {
-    "name": "Mieke",
-    "details": "My name is MiekeI am an 1 year old DSH Female",
-    "type": "DSH Female",
-    "age": 1,
-    "ageDate": "year",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Mieke-1-yr-old-DSH-F.jpg",
-    "animalType": "Cat"
-  },
-  {
-    "name": "Ripple",
-    "details": "Hi my name is Ripple I am a 12 week old DSH Male",
+    "name": "Clyde",
+    "details": "Hi my name is Clyde I am a 12 week old DSH Male",
     "type": "DSH Male",
     "age": 12,
     "ageDate": "week",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Ripple-12-wk-old-M.jpg",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Clyde-12-wk-M.jpg",
     "animalType": "Cat"
   },
   {
-    "name": "Donna",
-    "details": "My name is DonnaI am a 1 yr old DSH Female",
-    "type": "DSH Female",
-    "age": 1,
-    "ageDate": "year",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Donna-1yr-old-DSH-F.jpg",
+    "name": "Bella",
+    "details": "My name is\nBella\nI am a 12 month old\nNSB Female",
+    "type": "NSB Female",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/02/Bella.jpg",
+    "age": 12,
+    "ageDate": "month",
+    "animalType": "Dog"
+  },
+  {
+    "name": "Rain",
+    "details": "Hi my name is Rain I am a 18 week old DSH Male",
+    "type": "DSH Male",
+    "age": 18,
+    "ageDate": "week",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Rain-18-wk-old-M.jpg",
     "animalType": "Cat"
   },
   {
@@ -369,12 +279,66 @@
     "animalType": "Cat"
   },
   {
-    "name": "Aspen",
-    "details": "Hi my name is Aspen I am a 12 week old DSH Male",
-    "type": "DSH Male",
-    "age": 12,
+    "name": "Adele",
+    "details": "My name is Adele\nI am a 6 month old\nAfricanis Girlie",
+    "type": "Africanis Girlie",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/08/Adele-6-month-ol-Africanus-F.jpg",
+    "age": 6,
+    "ageDate": "month",
+    "animalType": "Dog"
+  },
+  {
+    "name": "Zhara",
+    "details": "Hi my name is Zhara\nI am a 2 year old\nRottweiler Cross Female",
+    "type": "Rottweiler Cross Female",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/ZHara-2-yr-old-Rottweiler-x-F.jpg",
+    "age": 2,
+    "ageDate": "year",
+    "animalType": "Dog"
+  },
+  {
+    "name": "Mona",
+    "details": "Hi my name is Mona I am an 18 month old DSH Girlie",
+    "type": "DSH Girlie",
+    "age": 18,
+    "ageDate": "month",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Mona-18-mnt-F.jpg",
+    "animalType": "Cat"
+  },
+  {
+    "name": "Optel",
+    "details": "Hi my name is Optel\nI am a 14 week old\nMixed breed Girlie",
+    "type": "Mixed breed Girlie",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Optel-14-wk-F.jpg",
+    "age": 14,
     "ageDate": "week",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Aspen-12-week-M.jpg",
+    "animalType": "Dog"
+  },
+  {
+    "name": "Sadie",
+    "details": "My name is Sadie I am a 12 month old DSH girlie",
+    "type": "DSH girlie",
+    "age": 12,
+    "ageDate": "month",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/08/Sadie-12-mnt-F.jpg",
+    "animalType": "Cat"
+  },
+  {
+    "name": "Biscuit",
+    "details": "Hi my name is Biscuit\nI am a 2 year old\nMixed Breed Male",
+    "type": "Mixed Breed Male",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Biscuit-2-year-old-Mixed-breed-male.jpg",
+    "age": 2,
+    "ageDate": "year",
+    "animalType": "Dog"
+  },
+  {
+    "name": "Tiger",
+    "details": "Hi my name is Tiger I am an 11 month old DSH Girlie",
+    "type": "DSH Girlie",
+    "age": 11,
+    "ageDate": "month",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Tiger-11-mnt-old-F.jpg",
     "animalType": "Cat"
   },
   {
@@ -387,12 +351,39 @@
     "animalType": "Cat"
   },
   {
-    "name": "Scoot",
-    "details": "Hi my name is ScootI am a 12 week old DSH Female",
-    "type": "DSH Female",
+    "name": "Marty",
+    "details": "My name is\nMarty\nI am a 12 month old\nFox Terrier x male",
+    "type": "Fox Terrier x male",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/01/MARTY.jpg",
     "age": 12,
-    "ageDate": "week",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Scoot-12-week-F.jpg",
+    "ageDate": "month",
+    "animalType": "Dog"
+  },
+  {
+    "name": "Shelly",
+    "details": "Hi my name is Shelly\nI am an 18 month old\nMixed breed Female",
+    "type": "Mixed breed Female",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Shelly-18mnt-F.jpg",
+    "age": 18,
+    "ageDate": "month",
+    "animalType": "Dog"
+  },
+  {
+    "name": "Barry",
+    "details": "Hi my name is Barry\nI am a 4 month old\nMixed breed Male",
+    "type": "Mixed breed Male",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Barry-4-mont-old-x-breed-male.jpg",
+    "age": 4,
+    "ageDate": "month",
+    "animalType": "Dog"
+  },
+  {
+    "name": "Mieke",
+    "details": "My name is MiekeI am an 1 year old DSH Female",
+    "type": "DSH Female",
+    "age": 1,
+    "ageDate": "year",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Mieke-1-yr-old-DSH-F.jpg",
     "animalType": "Cat"
   },
   {
@@ -405,75 +396,84 @@
     "animalType": "Cat"
   },
   {
-    "name": "Gremlin",
-    "details": "Hi my name is Gremlin I am a 1 year old DSH Girlie",
-    "type": "DSH Girlie",
-    "age": 1,
+    "name": "Bear",
+    "details": "Hi my name is Bear\nI am a 2 year old\nLab x Golden Caramel BIG BOY",
+    "type": "Lab x Golden Caramel BIG BOY",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Bear-Golden-Caramel-2-year-old-LAbx-M.jpg",
+    "age": 2,
     "ageDate": "year",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Gremlin-1-yr-old-F.jpg",
-    "animalType": "Cat"
+    "animalType": "Dog"
   },
   {
-    "name": "Niko",
-    "details": "Hi my name is Niko I am an 1 year old DSH Male",
+    "name": "Le Roux",
+    "details": "Hi my name is Le Roux I am a 10 week old DSH Male",
     "type": "DSH Male",
-    "age": 1,
-    "ageDate": "year",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Niko-1-yr-M.jpg",
-    "animalType": "Cat"
-  },
-  {
-    "name": "Silk",
-    "details": "Hi my name is Silk I am a 12 week old DSH Male",
-    "type": "DSH Male",
-    "age": 12,
+    "age": 10,
     "ageDate": "week",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Silk-12-wk-old-M.jpg",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Le-Roux-10-wk-old-M.jpg",
     "animalType": "Cat"
   },
   {
-    "name": "Thalia",
-    "details": "Hi my name is ThaliaI am a 4 month old DSH Girlie",
-    "type": "DSH Girlie",
+    "name": "Line",
+    "details": "My name is Line I am a 4 year old DSH Tabby girlie",
+    "type": "DSH Tabby girlie",
     "age": 4,
-    "ageDate": "month",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Thalia-4-mnt-old-F.jpg",
+    "ageDate": "year",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/08/Line-4-yr-old-F.jpg",
     "animalType": "Cat"
   },
   {
-    "name": "Clyde",
-    "details": "Hi my name is Clyde I am a 12 week old DSH Male",
-    "type": "DSH Male",
-    "age": 12,
-    "ageDate": "week",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Clyde-12-wk-M.jpg",
-    "animalType": "Cat"
-  },
-  {
-    "name": "Sadie",
-    "details": "My name is Sadie I am a 12 month old DSH girlie",
-    "type": "DSH girlie",
-    "age": 12,
-    "ageDate": "month",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/08/Sadie-12-mnt-F.jpg",
-    "animalType": "Cat"
-  },
-  {
-    "name": "Frikkie",
-    "details": "Hi my name is Frikkie I am an 18 week old DSH Girlie",
+    "name": "Monica",
+    "details": "Hi my name is Monica I am a 10 week old DSH Girlie",
     "type": "DSH Girlie",
-    "age": 18,
+    "age": 10,
     "ageDate": "week",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Frikkie-18-wk-F.jpg",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Monica-10wk-old-F.jpg",
     "animalType": "Cat"
   },
   {
-    "name": "Blackie",
-    "details": "My name is Blackie I am a 6 month old DSH Male",
-    "type": "DSH Male",
-    "age": 6,
+    "name": "Steffie",
+    "details": "Hi my name is Steffie\nI am a 12 month old\nMixed breed girlie",
+    "type": "Mixed breed girlie",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Steffie-12-wk-old-F.jpg",
+    "age": 12,
     "ageDate": "month",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Blackie-6-mnth-DSH-M.jpg",
+    "animalType": "Dog"
+  },
+  {
+    "name": "Jerry",
+    "details": "My name is Jerry I am an one year old DSH Male",
+    "type": "DSH Male",
+    "age": 1,
+    "ageDate": "year",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/08/Jerry-1-yr-old-M.jpg",
     "animalType": "Cat"
+  },
+  {
+    "name": "James",
+    "details": "Hi my name is James\nI am a 12 month old\nCollie x Male",
+    "type": "Collie x Male",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/James-12-mnt-old-Collie-x-M.jpg",
+    "age": 12,
+    "ageDate": "month",
+    "animalType": "Dog"
+  },
+  {
+    "name": "Mr Bojangles",
+    "details": "Hi my name is Bojangles I am an 18 month old DSH Male",
+    "type": "DSH Male",
+    "age": 18,
+    "ageDate": "month",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Mr-Bojangles-18mnt-M.jpg",
+    "animalType": "Cat"
+  },
+  {
+    "name": "Jess",
+    "details": "Hi my name is Jess\nI am a 7 month old, cat friendly\nMixed breed Girlie",
+    "type": "Mixed breed Girlie",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Jess-7-mnt-old-cat-friendly-F.jpg",
+    "age": 7,
+    "ageDate": "month",
+    "animalType": "Dog"
   }
 ]
