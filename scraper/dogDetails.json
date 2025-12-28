@@ -5,7 +5,8 @@
     "type": "breed girlie",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Vera-2-yr-old-cat-friendly-F.jpg",
     "age": 2,
-    "ageDate": "year"
+    "ageDate": "year",
+    "animalType": "Dog"
   },
   {
     "name": "Cloe",
@@ -13,7 +14,8 @@
     "type": "breed Girlie",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Cloe-6-month-old-xbreed-F.jpg",
     "age": 6,
-    "ageDate": "month"
+    "ageDate": "month",
+    "animalType": "Dog"
   },
   {
     "name": "Optel",
@@ -21,7 +23,8 @@
     "type": "Mixed breed Girlie",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Optel-14-wk-F.jpg",
     "age": 14,
-    "ageDate": "week"
+    "ageDate": "week",
+    "animalType": "Dog"
   },
   {
     "name": "Tomks",
@@ -29,7 +32,8 @@
     "type": "Mixed breed Male",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/TOMKS-12-m-M.jpg",
     "age": 12,
-    "ageDate": "month"
+    "ageDate": "month",
+    "animalType": "Dog"
   },
   {
     "name": "Mielies",
@@ -37,7 +41,8 @@
     "type": "Mixed breed Girli",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Mielies-10wk-old-F.jpg",
     "age": 10,
-    "ageDate": "week"
+    "ageDate": "week",
+    "animalType": "Dog"
   },
   {
     "name": "Buksie",
@@ -45,7 +50,8 @@
     "type": "Mixed Breed Male",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/01/474208817_1036535008498121_6640354585655762868_n.jpg",
     "age": 2,
-    "ageDate": "year"
+    "ageDate": "year",
+    "animalType": "Dog"
   },
   {
     "name": "Adele",
@@ -53,7 +59,8 @@
     "type": "Africanis Girlie",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/08/Adele-6-month-ol-Africanus-F.jpg",
     "age": 6,
-    "ageDate": "month"
+    "ageDate": "month",
+    "animalType": "Dog"
   },
   {
     "name": "Barry",
@@ -61,7 +68,8 @@
     "type": "Mixed breed Male",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Barry-4-mont-old-x-breed-male.jpg",
     "age": 4,
-    "ageDate": "month"
+    "ageDate": "month",
+    "animalType": "Dog"
   },
   {
     "name": "Bear",
@@ -69,7 +77,8 @@
     "type": "Lab x Golden Caramel BIG BOY",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Bear-Golden-Caramel-2-year-old-LAbx-M.jpg",
     "age": 2,
-    "ageDate": "year"
+    "ageDate": "year",
+    "animalType": "Dog"
   },
   {
     "name": "Scooby",
@@ -77,7 +86,8 @@
     "type": "Wirehair x Male",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Scooby-18-mnt-old-M-Wirehair-x.jpg",
     "age": 18,
-    "ageDate": "month"
+    "ageDate": "month",
+    "animalType": "Dog"
   },
   {
     "name": "Biscuit",
@@ -85,7 +95,8 @@
     "type": "Mixed Breed Male",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Biscuit-2-year-old-Mixed-breed-male.jpg",
     "age": 2,
-    "ageDate": "year"
+    "ageDate": "year",
+    "animalType": "Dog"
   },
   {
     "name": "Coco",
@@ -93,7 +104,8 @@
     "type": "Mixed breed Female",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Coco-9-mnt-x-F.jpg",
     "age": 9,
-    "ageDate": "month"
+    "ageDate": "month",
+    "animalType": "Dog"
   },
   {
     "name": "Sparky",
@@ -101,7 +113,8 @@
     "type": "Mixed breed Male",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Sparky-2-yr-old-M.jpg",
     "age": 2,
-    "ageDate": "year"
+    "ageDate": "year",
+    "animalType": "Dog"
   },
   {
     "name": "Tyson",
@@ -109,7 +122,8 @@
     "type": "",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Tyson-3-yr-old-Terrier-x-M.jpg",
     "age": 3,
-    "ageDate": "year"
+    "ageDate": "year",
+    "animalType": "Dog"
   },
   {
     "name": "Shelly",
@@ -117,7 +131,8 @@
     "type": "Mixed breed Female",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Shelly-18mnt-F.jpg",
     "age": 18,
-    "ageDate": "month"
+    "ageDate": "month",
+    "animalType": "Dog"
   },
   {
     "name": "Megan",
@@ -125,7 +140,8 @@
     "type": "Mixed breed Girlie",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Megan-8-mnt-old-F.jpg",
     "age": 8,
-    "ageDate": "month"
+    "ageDate": "month",
+    "animalType": "Dog"
   },
   {
     "name": "James",
@@ -133,7 +149,8 @@
     "type": "Collie x Male",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/James-12-mnt-old-Collie-x-M.jpg",
     "age": 12,
-    "ageDate": "month"
+    "ageDate": "month",
+    "animalType": "Dog"
   },
   {
     "name": "Zhara",
@@ -141,7 +158,8 @@
     "type": "Rottweiler Cross Female",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/ZHara-2-yr-old-Rottweiler-x-F.jpg",
     "age": 2,
-    "ageDate": "year"
+    "ageDate": "year",
+    "animalType": "Dog"
   },
   {
     "name": "Steffie",
@@ -149,7 +167,8 @@
     "type": "Mixed breed girlie",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Steffie-12-wk-old-F.jpg",
     "age": 12,
-    "ageDate": "month"
+    "ageDate": "month",
+    "animalType": "Dog"
   },
   {
     "name": "Elsie",
@@ -157,7 +176,8 @@
     "type": "Mixed breed Girlie",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Elsie-12-week-old-Female.jpg",
     "age": 3,
-    "ageDate": "month"
+    "ageDate": "month",
+    "animalType": "Dog"
   },
   {
     "name": "Marty",
@@ -165,7 +185,8 @@
     "type": "Fox Terrier x male",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/01/MARTY.jpg",
     "age": 12,
-    "ageDate": "month"
+    "ageDate": "month",
+    "animalType": "Dog"
   },
   {
     "name": "Micky",
@@ -173,7 +194,8 @@
     "type": "GSDxCollie Female",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Micky-3-yr-old-GSDxCollie-F.jpg",
     "age": 3,
-    "ageDate": "year"
+    "ageDate": "year",
+    "animalType": "Dog"
   },
   {
     "name": "Bella",
@@ -181,7 +203,8 @@
     "type": "NSB Female",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/02/Bella.jpg",
     "age": 12,
-    "ageDate": "month"
+    "ageDate": "month",
+    "animalType": "Dog"
   },
   {
     "name": "Copper",
@@ -189,7 +212,8 @@
     "type": "Mixed breed Male",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Copper-18-month-old-xbreed-M.jpg",
     "age": 18,
-    "ageDate": "month"
+    "ageDate": "month",
+    "animalType": "Dog"
   },
   {
     "name": "Jess",
@@ -197,7 +221,8 @@
     "type": "Mixed breed Girlie",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Jess-7-mnt-old-cat-friendly-F.jpg",
     "age": 7,
-    "ageDate": "month"
+    "ageDate": "month",
+    "animalType": "Dog"
   },
   {
     "name": "Le Roux",
@@ -205,7 +230,8 @@
     "type": "DSH Male",
     "age": 10,
     "ageDate": "week",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Le-Roux-10-wk-old-M.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Le-Roux-10-wk-old-M.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Monica",
@@ -213,7 +239,8 @@
     "type": "DSH Girlie",
     "age": 10,
     "ageDate": "week",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Monica-10wk-old-F.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Monica-10wk-old-F.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Rain",
@@ -221,7 +248,8 @@
     "type": "DSH Male",
     "age": 18,
     "ageDate": "week",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Rain-18-wk-old-M.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Rain-18-wk-old-M.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Jinx",
@@ -229,7 +257,8 @@
     "type": "Male Tabby Cat",
     "age": 1,
     "ageDate": "year",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Jinx-L-Tabby-male-1-yr-old.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Jinx-L-Tabby-male-1-yr-old.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Tiger",
@@ -237,7 +266,8 @@
     "type": "DSH Girlie",
     "age": 11,
     "ageDate": "month",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Tiger-11-mnt-old-F.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Tiger-11-mnt-old-F.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Mona",
@@ -245,7 +275,8 @@
     "type": "DSH Girlie",
     "age": 18,
     "ageDate": "month",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Mona-18-mnt-F.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Mona-18-mnt-F.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Line",
@@ -253,7 +284,8 @@
     "type": "DSH Tabby girlie",
     "age": 4,
     "ageDate": "year",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/08/Line-4-yr-old-F.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/08/Line-4-yr-old-F.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Tammy",
@@ -261,15 +293,17 @@
     "type": "DSH Girlie",
     "age": 18,
     "ageDate": "month",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Tammy-18-mnt-old-F.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Tammy-18-mnt-old-F.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Uda",
     "details": "My name is Uda I am an one year old DSH Female",
     "type": "DSH Female",
-     "age": 1,
-     "ageDate": "year",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/02/Uda-1-yr-old-DSH-Female.jpg"
+    "age": 1,
+    "ageDate": "year",
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/02/Uda-1-yr-old-DSH-Female.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Mr Bojangles",
@@ -277,7 +311,8 @@
     "type": "DSH Male",
     "age": 18,
     "ageDate": "month",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Mr-Bojangles-18mnt-M.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Mr-Bojangles-18mnt-M.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Hazel",
@@ -285,7 +320,8 @@
     "type": "DSH Girlie",
     "age": 6,
     "ageDate": "month",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Hazel-6-mnt-F.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Hazel-6-mnt-F.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Jerry",
@@ -293,7 +329,8 @@
     "type": "DSH Male",
     "age": 1,
     "ageDate": "year",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/08/Jerry-1-yr-old-M.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/08/Jerry-1-yr-old-M.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Mieke",
@@ -301,7 +338,8 @@
     "type": "DSH Female",
     "age": 1,
     "ageDate": "year",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Mieke-1-yr-old-DSH-F.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Mieke-1-yr-old-DSH-F.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Ripple",
@@ -309,7 +347,8 @@
     "type": "DSH Male",
     "age": 12,
     "ageDate": "week",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Ripple-12-wk-old-M.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Ripple-12-wk-old-M.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Donna",
@@ -317,7 +356,8 @@
     "type": "DSH Female",
     "age": 1,
     "ageDate": "year",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Donna-1yr-old-DSH-F.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Donna-1yr-old-DSH-F.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Vinkie",
@@ -325,7 +365,8 @@
     "type": "DSH Male",
     "age": 1,
     "ageDate": "year",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Vinkie-1-yr-old-M.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Vinkie-1-yr-old-M.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Aspen",
@@ -333,7 +374,8 @@
     "type": "DSH Male",
     "age": 12,
     "ageDate": "week",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Aspen-12-week-M.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Aspen-12-week-M.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Jonel",
@@ -341,7 +383,8 @@
     "type": "DSH girlie",
     "age": 1,
     "ageDate": "year",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2024/12/JONEL.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2024/12/JONEL.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Scoot",
@@ -349,7 +392,8 @@
     "type": "DSH Female",
     "age": 12,
     "ageDate": "week",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Scoot-12-week-F.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Scoot-12-week-F.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "River",
@@ -357,7 +401,8 @@
     "type": "DSH Male",
     "age": 12,
     "ageDate": "week",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/River-12-wk-old-M.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/River-12-wk-old-M.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Gremlin",
@@ -365,7 +410,8 @@
     "type": "DSH Girlie",
     "age": 1,
     "ageDate": "year",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Gremlin-1-yr-old-F.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Gremlin-1-yr-old-F.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Niko",
@@ -373,7 +419,8 @@
     "type": "DSH Male",
     "age": 1,
     "ageDate": "year",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Niko-1-yr-M.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Niko-1-yr-M.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Silk",
@@ -381,7 +428,8 @@
     "type": "DSH Male",
     "age": 12,
     "ageDate": "week",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Silk-12-wk-old-M.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Silk-12-wk-old-M.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Thalia",
@@ -389,7 +437,8 @@
     "type": "DSH Girlie",
     "age": 4,
     "ageDate": "month",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Thalia-4-mnt-old-F.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Thalia-4-mnt-old-F.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Clyde",
@@ -397,7 +446,8 @@
     "type": "DSH Male",
     "age": 12,
     "ageDate": "week",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Clyde-12-wk-M.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Clyde-12-wk-M.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Sadie",
@@ -405,7 +455,8 @@
     "type": "DSH girlie",
     "age": 12,
     "ageDate": "month",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/08/Sadie-12-mnt-F.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/08/Sadie-12-mnt-F.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Frikkie",
@@ -413,7 +464,8 @@
     "type": "DSH Girlie",
     "age": 18,
     "ageDate": "week",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Frikkie-18-wk-F.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Frikkie-18-wk-F.jpg",
+    "animalType": "Cat"
   },
   {
     "name": "Blackie",
@@ -421,6 +473,7 @@
     "type": "DSH Male",
     "age": 6,
     "ageDate": "month",
-    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Blackie-6-mnth-DSH-M.jpg"
+    "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/06/Blackie-6-mnth-DSH-M.jpg",
+    "animalType": "Cat"
   }
 ]
