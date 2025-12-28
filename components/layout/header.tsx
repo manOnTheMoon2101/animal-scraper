@@ -62,7 +62,7 @@ function Header() {
             <span
               className={`italic text-6xl md:text-8xl mx-2 text-secondary ${mclaren.className}`}
             >
-              Friend!
+              Friend
             </span>
           </div>
         </div>
