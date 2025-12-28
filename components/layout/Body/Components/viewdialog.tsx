@@ -12,14 +12,15 @@ import {
   MorphingDialogContainer,
 } from "@/components/motion-primitives/morphing-dialog";
 import { Button } from "@/components/ui/button";
-import { ExternalLink } from "lucide-react";
+import { Eye } from "lucide-react";
+import { Dog, Cat } from "lucide-react";
 import { Fira_Sans } from "next/font/google";
+import { Phone } from "lucide-react";
 const fira = Fira_Sans({
   weight: "200",
   subsets: ["latin"],
 });
 export function MorphingDialogBasicOne({ data }: { data: any }) {
- 
   return (
     <MorphingDialog
       transition={{
@@ -41,10 +42,12 @@ export function MorphingDialogBasicOne({ data }: { data: any }) {
         />
         <div className="flex grow flex-row items-end justify-between px-3 py-2">
           <div>
-            <MorphingDialogTitle className="text-secondary text-2xl flex flex-row justify-start font-bold">
-              {data.name}
+            <MorphingDialogTitle className="text-secondary text-2xl flex flex-row items-center gap-1 justify-start font-bold">
+              {data.animalType === "Dog" ? <Dog /> : <Cat />} {data.name}
             </MorphingDialogTitle>
-            <MorphingDialogSubtitle className={`text-accent flex flex-row justify-start  ${fira.className}`}>
+            <MorphingDialogSubtitle
+              className={`text-accent  flex flex-row justify-start `}
+            >
               {data.type
                 ? data.type
                     .split(" ")
@@ -57,14 +60,14 @@ export function MorphingDialogBasicOne({ data }: { data: any }) {
             </MorphingDialogSubtitle>
           </div>
           <div
-            className="relative bg-accent ml-1 flex h-6 w-6 shrink-0 scale-100 select-none appearance-none items-center justify-center  border border-accent text-white rounded"
+            className="relative  ml-1 flex h-6 w-6 shrink-0 scale-100 select-none appearance-none items-center justify-center  border border-accent text-white bg-secondary rounded-full"
             aria-label="Open dialog"
           >
-            <ExternalLink size={12} className="hover:text-primary" />
+            <Eye size={12} className="hover:text-primary" />
           </div>
         </div>
       </MorphingDialogTrigger>
-      <MorphingDialogContainer >
+      <MorphingDialogContainer>
         <MorphingDialogContent
           style={{
             borderRadius: "24px",
@@ -80,7 +83,9 @@ export function MorphingDialogBasicOne({ data }: { data: any }) {
             <MorphingDialogTitle className="text-accent text-2xl font-bold flex flex-row justify-start">
               {data.name}
             </MorphingDialogTitle>
-            <MorphingDialogSubtitle className={`text-muted flex flex-row justify-start ${fira.className} `}>
+            <MorphingDialogSubtitle
+              className={`text-muted flex flex-row justify-start ${fira.className} `}
+            >
               {data.details}
             </MorphingDialogSubtitle>
             <MorphingDialogDescription
@@ -92,15 +97,16 @@ export function MorphingDialogBasicOne({ data }: { data: any }) {
               }}
             >
               <div className="flex flex-row justify-end my-4">
-              <Button variant={"outline"}>
-                <a
-                  href={`https://wellingtonspca.co.za/up-for-adoption/dogs/${data.name}/`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Contact{" "}
-                </a>
-              </Button>
+                <Button variant={"outline"}>
+                  <a
+                    href={`https://wellingtonspca.co.za/up-for-adoption/dogs/${data.name}/`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex flex-row items-center gap-1"
+                  >
+                    <Phone /> Contact{" "}
+                  </a>
+                </Button>
               </div>
             </MorphingDialogDescription>
           </div>
