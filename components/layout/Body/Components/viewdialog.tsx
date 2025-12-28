@@ -84,7 +84,7 @@ export function MorphingDialogBasicOne({ data }: { data: any }) {
               {data.name}
             </MorphingDialogTitle>
             <MorphingDialogSubtitle
-              className={`text-muted flex flex-row justify-start ${fira.className} `}
+              className={`text-muted flex flex-row justify-start `}
             >
               {data.details}
             </MorphingDialogSubtitle>
@@ -96,6 +96,26 @@ export function MorphingDialogBasicOne({ data }: { data: any }) {
                 exit: { opacity: 0, scale: 0.8, y: 100 },
               }}
             >
+
+              <div className="space-y-3 mt-4">
+                {data.type && (
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm text-muted">Breed:</span>
+                    <span className="text-sm text-foreground bg-secondary/50 px-2 py-1 rounded">
+                      {data.type}
+                    </span>
+                  </div>
+                )}
+                
+                {data.age && data.ageDate && (
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm text-muted">Age:</span>
+                    <span className="text-sm text-foreground bg-accent/50 px-2 py-1 rounded">
+                      {data.age} {data.ageDate}{data.age > 1 ? 's' : ''} old
+                    </span>
+                  </div>
+                )}
+              </div>
               <div className="flex flex-row justify-end my-4">
                 <Button variant={"outline"}>
                   <a

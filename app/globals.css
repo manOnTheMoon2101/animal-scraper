@@ -63,6 +63,7 @@
 :root {
   --background: oklch(0.9799 0.0145 102.45);
   --foreground: oklch(0 0 187.36);
+  --muted: oklch(39.042% 0.00004 271.152);
   --card: oklch(0.208 0.042 265.755);
   --primary: oklch(0.9491 0 0);
   --secondary: oklch(0.861 0.025 71.43);

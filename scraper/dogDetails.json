@@ -119,7 +119,7 @@
   {
     "name": "Tyson",
     "details": "Hi my name is Tyson\nI am 3 year old\nTerrier x Male",
-    "type": "",
+    "type": "Terrier x Male",
     "image": "https://wellingtonspca.co.za/wp-content/uploads/2025/12/Tyson-3-yr-old-Terrier-x-M.jpg",
     "age": 3,
     "ageDate": "year",
